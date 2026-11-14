@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8563151678569031,
+    "zoomFactor": 0.63533988261044,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -181,21 +181,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 78,
-      "layer": "",
-      "name": "Clouds",
-      "persistentUuid": "7a4f19b7-6962-4686-9bfa-69dd5158902c",
-      "width": 2269,
-      "x": 0,
-      "y": 472,
-      "zOrder": 36,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "height": 928,
       "layer": "",
       "name": "LeftBoundary",
@@ -329,21 +314,6 @@
       "x": 1202,
       "y": 236,
       "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 155,
-      "layer": "Background",
-      "name": "Moon",
-      "persistentUuid": "d69158af-6294-402d-b60b-65dd19e09e59",
-      "width": 156.37167358398438,
-      "x": 737.6282958984375,
-      "y": -64,
-      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2928,24 +2898,6 @@
     },
     {
       "assetStoreId": "",
-      "height": 78,
-      "name": "Clouds",
-      "texture": "assets\\Clouds.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 960,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "HorizontalTiledSpriteParallax",
-          "type": "Parallax::HorizontalTiledSpriteParallax",
-          "ParallaxFactor": 1.2,
-          "FollowedLayer": ""
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
       "bold": true,
       "italic": false,
       "name": "ScoreText",
@@ -2991,7 +2943,7 @@
       "assetStoreId": "",
       "height": 622,
       "name": "BackgroundPlants",
-      "texture": "assets\\tiled_Background.png",
+      "texture": "Bounce_Tales_8_b6ca7616b2-Photoroom (1).png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 1426,
       "variables": [],
@@ -3221,47 +3173,6 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\boundary.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": false,
-      "assetStoreId": "",
-      "name": "Moon",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\Moon.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3546,12 +3457,6 @@
           },
           {
             "objectName": "Portal"
-          },
-          {
-            "objectName": "Moon"
-          },
-          {
-            "objectName": "Clouds"
           }
         ]
       },
