@@ -865,6 +865,7 @@
         }
       },
       {
+<<<<<<< HEAD
         "file": "assets/volley ball yellow.png",
         "kind": "image",
         "metadata": "",
@@ -881,10 +882,61 @@
         "kind": "image",
         "metadata": "",
         "name": "Old hero.png",
+=======
+        "file": "generic_platformer_tiles.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "generic_platformer_tiles.png",
         "smoothed": true,
         "userAdded": false
       },
       {
+        "file": "sheet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sheet.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "sheet2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sheet2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tilemap_terrain.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tilemap_terrain.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney New Platformer Pack 1.0/Tilemap/9b627f6dd19701b59e1ffc1310bce631b2c8b757264991288ffb1143f8e39a8d_Tilemap_terrain.png",
+          "name": "Tilemap_terrain.png"
+        }
+      },
+      {
+        "file": "preview2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "preview2.png",
+>>>>>>> b015e23994f879fb26f8e44cc3a92c9fd4aed6e6
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+<<<<<<< HEAD
         "file": "assets/Player.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -934,6 +986,30 @@
         "name": "Bounce_Tales_8_b6ca7616b2-Photoroom (1).png",
         "smoothed": true,
         "userAdded": false
+=======
+        "file": "assets/Tilemap Decorations.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tilemap Decorations.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney New Platformer Pack 1.0/Tilemap/62c4efd4307471cfa6d59d1a1e2abc448e6c9c2f044cf0854d7ed1aaeb67e605_Tilemap Decorations.png",
+          "name": "Tilemap Decorations.png"
+        }
+      },
+      {
+        "file": "assets/spritesheet-tiles-default.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spritesheet-tiles-default.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney New Platformer Pack 1.0/Tilemap/16c6bb75a286c8dd9b224626c7493085ee2b25516f0ffcb078e5ae5b826c7e4d_spritesheet-tiles-default.png",
+          "name": "spritesheet-tiles-default.png"
+        }
+>>>>>>> b015e23994f879fb26f8e44cc3a92c9fd4aed6e6
       }
     ]
   },
