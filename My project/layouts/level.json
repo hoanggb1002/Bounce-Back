@@ -10,7 +10,7 @@
   "title": "",
   "v": 24,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -20,8 +20,8 @@
     "gridOffsetZ": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.6567637531652039,
+    "snap": true,
+    "zoomFactor": 0.33833585492745644,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -181,28 +181,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 78,
-      "layer": "",
-      "name": "Clouds",
-      "persistentUuid": "7a4f19b7-6962-4686-9bfa-69dd5158902c",
-      "width": 2269,
-      "x": 0,
-      "y": 472,
-      "zOrder": 36,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "height": 928,
       "layer": "",
       "name": "LeftBoundary",
       "persistentUuid": "78dd0ffa-b22f-47a8-9b36-ef6a432b1d1e",
       "width": 135,
-      "x": 0,
-      "y": -256,
+      "x": -359,
+      "y": -352,
       "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
@@ -329,21 +314,6 @@
       "x": 1202,
       "y": 236,
       "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 155,
-      "layer": "Background",
-      "name": "Moon",
-      "persistentUuid": "d69158af-6294-402d-b60b-65dd19e09e59",
-      "width": 156.37167358398438,
-      "x": 737.6282958984375,
-      "y": -64,
-      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -545,21 +515,6 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "height": 622,
-      "layer": "Background",
-      "name": "BackgroundPlants",
-      "persistentUuid": "03b6869d-198f-4807-b659-f2b863e21073",
-      "width": 2272,
-      "x": 0,
-      "y": -25,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "",
@@ -596,8 +551,8 @@
       "name": "TopBoundary",
       "persistentUuid": "4381c067-2682-4f00-9a24-ff28fa12b1d8",
       "width": 2272,
-      "x": 0,
-      "y": -256,
+      "x": 64,
+      "y": -1504,
       "zOrder": 59,
       "numberProperties": [],
       "stringProperties": [],
@@ -612,7 +567,7 @@
       "persistentUuid": "00f86cf3-18b0-4d71-9ce8-952dfc4e6b5c",
       "width": 2272,
       "x": 0,
-      "y": 544,
+      "y": 832,
       "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
@@ -677,6 +632,27 @@
       "zOrder": 61,
       "numberProperties": [],
       "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Tiles_And_Props",
+      "persistentUuid": "f089c3b9-d9dc-4a80-a962-9c9fa099ac9f",
+      "width": 0,
+      "x": -128,
+      "y": -1120,
+      "zOrder": 62,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":34,\"dimY\":17,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,100,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,190,-1,-1,-1,136,-1,154,-1,-1,-1,-1,-1,100,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,187,169,169,169,151,-1,259,277,277,277,277,277,241,-1,259,294,100,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,240],[-1,-1,-1,-1,-1,-1,-1,-1,44,62,62,62,62,62,26,-1,44,312,294,100,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,258],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,44,312,294,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,258],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,44,312,294,140,-1,320,320,320,-1,136,-2147483623,-2147483605,-1,100,-1,258],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,44,312,277,277,277,277,277,277,277,-2147483641,8,-1,100,-1,258],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,44,62,62,62,62,62,62,62,62,8,-1,100,-1,258],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,62,-1,-1,-1,258],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,258],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,258],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,258],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-2147483526,-1,258],[187,169,169,169,151,-1,259,277,277,277,241,-1,259,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,241,-1,259,277,277,277,277,8],[-1,-1,-1,-1,-1,-1,44,62,62,62,26,-1,313,191,191,191,191,191,191,191,191,191,191,191,191,191,295,-1,44,62,62,62,62,26],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,313,227,227,227,227,227,227,227,227,227,227,227,227,227,295,-1,-1,-1,-1,-1,-1,-1]]}]}"
+        }
+      ],
       "initialVariables": []
     }
   ],
@@ -3344,6 +3320,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Fly",
+      "persistentUuid": "4c81accc-accf-4a69-bd75-357092c0e03d",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -4273,6 +4250,7 @@
       "assetStoreId": "",
       "height": 78,
       "name": "Clouds",
+      "persistentUuid": "769fb52a-c51b-41fe-afc1-d2869fdc1273",
       "texture": "assets\\Clouds.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 960,
@@ -4334,6 +4312,7 @@
       "assetStoreId": "",
       "height": 622,
       "name": "BackgroundPlants",
+      "persistentUuid": "47205313-950e-447d-b147-bf649ad38ee8",
       "texture": "assets\\tiled_Background.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 1426,
@@ -4359,6 +4338,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "LeftBoundary",
+      "persistentUuid": "713f9bd7-7f23-4bdc-80fb-7e2425e47ef7",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4457,6 +4437,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "TopBoundary",
+      "persistentUuid": "9f52676e-4bd9-45cf-ac38-e52a9c20d789",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4498,6 +4479,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "BottomBoundary",
+      "persistentUuid": "4cdfb746-6e3f-4939-bb14-d70678ba5255",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4588,6 +4570,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Moon",
+      "persistentUuid": "713c910c-c18e-4380-b311-40268e5a1423",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4876,6 +4859,22 @@
         "CornerRadius": 8,
         "Padding": 5
       }
+    },
+    {
+      "assetStoreId": "f2c788b405c7ff269777f7ad411833c31b8f821c2f6f891c2248bfa421e83370",
+      "name": "Tiles_And_Props",
+      "persistentUuid": "14743057-c790-492f-ab8e-951a4b9dc755",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "atlasImage": "spritesheet-tiles-default.png",
+        "rowCount": 18,
+        "columnCount": 18,
+        "tileSize": 64,
+        "tilesWithHitBox": "1,19,37,55,73,91,109,127,145,163,181,199,217,235,253,271,289,307,2,20,38,56,74,92,110,128,146,164,182,200,218,236,254,272,290,308,3,21,39,57,75,93,111,129,147,165,183,201,219,237,255,273,291,309,4,22,40,58,76,94,112,130,148,166,184,202,220,238,256,274,292,310,5,23,41,59,77,95,113,131,149,167,185,203,221,239,257,275,293,311,6,24,42,60,78,96,114,132,150,168,186,204,222,240,258,276,294,312,7,25,43,61,79,97,115,133,151,169,187,205,223,241,259,277,295,313,8,26,44,62,80,98,116,134,152,170,188,206,224,242,260,278,296,314,9,27,45,63,81,99,117,135,153,171,189,207,225,243,261,17,35,53,71,89,107,124,142,160,178,196,214,232,250,268,286,304,322,303,321,285,267,306,162,180,198,216,234,252,270,288,0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -4952,6 +4951,9 @@
           },
           {
             "objectName": "Ladder"
+          },
+          {
+            "objectName": "Tiles_And_Props"
           }
         ]
       },
@@ -6591,6 +6593,10 @@
     {
       "name": "Text",
       "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
+      "name": "TileMap",
+      "type": "TileMap::TileMapBehavior"
     },
     {
       "name": "Tween",

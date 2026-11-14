@@ -862,6 +862,82 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Mobile Layouts/6a8102ce3340bf9f62300ee1a81ef0b2327b2c6e8d62d7dda68d547f5e2b5969_rotate-screen-icon.png",
           "name": "rotate-screen-icon.png"
         }
+      },
+      {
+        "file": "generic_platformer_tiles.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "generic_platformer_tiles.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "sheet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sheet.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "sheet2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sheet2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tilemap_terrain.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tilemap_terrain.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney New Platformer Pack 1.0/Tilemap/9b627f6dd19701b59e1ffc1310bce631b2c8b757264991288ffb1143f8e39a8d_Tilemap_terrain.png",
+          "name": "Tilemap_terrain.png"
+        }
+      },
+      {
+        "file": "preview2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "preview2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tilemap Decorations.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tilemap Decorations.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney New Platformer Pack 1.0/Tilemap/62c4efd4307471cfa6d59d1a1e2abc448e6c9c2f044cf0854d7ed1aaeb67e605_Tilemap Decorations.png",
+          "name": "Tilemap Decorations.png"
+        }
+      },
+      {
+        "file": "assets/spritesheet-tiles-default.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spritesheet-tiles-default.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney New Platformer Pack 1.0/Tilemap/16c6bb75a286c8dd9b224626c7493085ee2b25516f0ffcb078e5ae5b826c7e4d_spritesheet-tiles-default.png",
+          "name": "spritesheet-tiles-default.png"
+        }
       }
     ]
   },
