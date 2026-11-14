@@ -862,6 +862,69 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Mobile Layouts/6a8102ce3340bf9f62300ee1a81ef0b2327b2c6e8d62d7dda68d547f5e2b5969_rotate-screen-icon.png",
           "name": "rotate-screen-icon.png"
         }
+      },
+      {
+        "file": "assets/volley ball yellow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "volley ball yellow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sports pack (380 assets)/PNG/Equipment/1f11bad777f49893aa03cbfafcc8916b260e375b52f7754420cebf05a2719b5c_volley ball yellow.png",
+          "name": "volley ball yellow.png"
+        }
+      },
+      {
+        "file": "Old hero.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Old hero.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RampartOne-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "68aa9a6fa860ee71edbbdd8bb40fb357f4882570307bfb088af195f7fc8524f0_RampartOne-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/Japanese/68aa9a6fa860ee71edbbdd8bb40fb357f4882570307bfb088af195f7fc8524f0_RampartOne-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Player4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player4",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
