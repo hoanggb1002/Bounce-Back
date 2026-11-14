@@ -1,0 +1,65 @@
+{
+  "associatedLayout": "Level",
+  "name": "Touch controls",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 160,
+      "layer": "UI",
+      "name": "Joystick",
+      "persistentUuid": "4fa63ba7-da33-466c-9e2d-29c710e232a1",
+      "width": 160,
+      "x": 144,
+      "y": 420,
+      "zOrder": 62,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 160,
+      "layer": "UI",
+      "name": "JumpButton",
+      "persistentUuid": "62ea7557-4333-4a0d-a16a-5709dae5b0b9",
+      "width": 160,
+      "x": 816,
+      "y": 420,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 540,
+      "layer": "UI",
+      "name": "ScreenOrientationChecker",
+      "persistentUuid": "449a3b88-d4ee-4039-b9de-95d6c27e30fd",
+      "width": 960,
+      "x": 0,
+      "y": 0,
+      "zOrder": 63,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "editionSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.7291666666666666,
+    "windowMask": false
+  }
+}

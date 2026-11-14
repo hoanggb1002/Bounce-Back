@@ -1,0 +1,147 @@
+{
+  "author": "",
+  "category": "Audio",
+  "dimension": "",
+  "extensionNamespace": "",
+  "fullName": "Volume Falloff",
+  "gdevelopVersion": "",
+  "helpPath": "",
+  "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXZvbHVtZS1zb3VyY2UiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMyA5VjE1SDdMMTIgMjBWNEw3IDlIM00xNiAxNUgxNFY5SDE2VjE1TTIwIDE5SDE4VjVIMjBWMTlaIiAvPjwvc3ZnPg==",
+  "name": "VolumeFalloff",
+  "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/volume-source.svg",
+  "shortDescription": "Simple volume falloff.",
+  "version": "1.0.1",
+  "description": "Simple volume falloff based on distance from an object to another object.",
+  "tags": [
+    "volume",
+    "sound",
+    "audio",
+    "falloff",
+    "distance"
+  ],
+  "authorIds": [
+    "1vKGH4y6Y5Myz3MaqRdwpju3arq2"
+  ],
+  "dependencies": [],
+  "globalVariables": [],
+  "sceneVariables": [],
+  "eventsFunctions": [
+    {
+      "description": "Set volume for a channel based on a falloff distance between two objects.",
+      "fullName": "Set volume based on falloff",
+      "functionType": "Action",
+      "name": "SetVolumeFalloff",
+      "sentence": "Volume falloff on channel _PARAM1_ (type _PARAM2_) from _PARAM3_ to _PARAM4_ with volume from _PARAM5_ to _PARAM6_ starting at a distance of _PARAM7_ pixels",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "AudioType",
+                "=",
+                "\"Sound\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetSoundChannelVolume"
+              },
+              "parameters": [
+                "",
+                "Channel",
+                "=",
+                "lerp(MinVol, MaxVol, max((MaxDistance - DistanceBetweenPositions(Source.X(), Source.Y(), Target.X(), Target.Y())) / MaxDistance, 0))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "AudioType",
+                "=",
+                "\"Music\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetMusicChannelVolume"
+              },
+              "parameters": [
+                "",
+                "Channel",
+                "=",
+                "lerp(MinVol, MaxVol, max((MaxDistance - DistanceBetweenPositions(Source.X(), Source.Y(), Target.X(), Target.Y())) / MaxDistance, 0))"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Channel identifier",
+          "name": "Channel",
+          "type": "expression"
+        },
+        {
+          "description": "Audio type",
+          "name": "AudioType",
+          "supplementaryInformation": "[\"Music\",\"Sound\"]",
+          "type": "stringWithSelector"
+        },
+        {
+          "description": "Source object",
+          "name": "Source",
+          "type": "objectList"
+        },
+        {
+          "description": "Target object",
+          "name": "Target",
+          "type": "objectList"
+        },
+        {
+          "description": "Minimum volume",
+          "longDescription": "From 0 to 100, 100 by default.",
+          "name": "MinVol",
+          "type": "expression"
+        },
+        {
+          "description": "Maximum volume",
+          "longDescription": "From 0 to 100, 100 by default.",
+          "name": "MaxVol",
+          "type": "expression"
+        },
+        {
+          "description": "Max distance",
+          "longDescription": "Maximum distance before volume has completely fallen off in pixels.",
+          "name": "MaxDistance",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    }
+  ],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "functionName": "SetVolumeFalloff"
+      }
+    ]
+  },
+  "eventsBasedBehaviors": [],
+  "eventsBasedObjects": []
+}
