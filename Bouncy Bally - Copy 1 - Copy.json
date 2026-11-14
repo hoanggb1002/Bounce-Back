@@ -1,0 +1,1103 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 287,
+    "major": 5,
+    "minor": 6,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.platformer",
+    "pixelsRounding": false,
+    "projectUuid": "c27e37a1-7029-4d89-a968-bb899ef13e40",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "platformer",
+    "version": "1.0.0",
+    "name": "Bouncy Bally - Copy 1 - Copy",
+    "description": "An example of a basic platformer (Mario-like) game. Jump around and collect as many coins as you can!",
+    "author": "",
+    "windowWidth": 960,
+    "windowHeight": 540,
+    "latestCompilationDirectory": "C:\\Users\\ADMIN\\Downloads",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [
+      "keyboard",
+      "gamepad",
+      "mobile"
+    ],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/PTSans-Bold.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "PTSans-Bold.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "assets/crickets.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "crickets.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/jump.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "jump.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/death.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "death.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/coin.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "coin.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/checkpoint.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "checkpoint.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/door.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "door.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/grass.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/audio/grass.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Red hero_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Idle_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Red hero_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Idle_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Red hero_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Idle_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Red hero_Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Idle_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Red hero_Run_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Run_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Red hero_Run_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Run_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Red hero_Run_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Run_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Red hero_Run_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Run_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Red hero_Run_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Run_5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Red hero_Run_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Run_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Red hero_Run_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Run_7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Red hero_Run_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Run_8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Red hero_Run_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Run_9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Red hero_Run_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Run_10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Red hero_Run_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Run_11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Red hero_Run_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Run_12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Red hero_Run_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Run_13.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Red hero_Run_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Run_14.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Red hero_Run_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Run_15.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Red hero_Run_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Run_16.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Red hero_Run_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Run_17.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Red hero_Run_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Run_18.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Red hero_Run_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Run_19.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Red hero_Jump.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Jump.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Red hero_Climb_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Climb_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Red hero_Climb_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Climb_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Red hero_Climb_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Climb_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Red hero_Climb_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Climb_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Red hero_Climb_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Climb_5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Red hero_Climb_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Climb_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Red hero_Climb_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Climb_7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Red hero_Climb_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Climb_8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Red hero_Climb_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Climb_9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Red hero_Climb_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Climb_10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Red hero_Climb_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Climb_11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Red hero_Climb_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Climb_12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Red hero_Fall.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Fall.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Platform 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Platform 1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Platform 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Platform 2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Platform 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Platform 3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Corner platform.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Corner platform.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Door.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Door.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Checkpoint_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Checkpoint_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Checkpoint_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Checkpoint_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Checkpoint_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Checkpoint_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Checkpoint_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Checkpoint_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Clouds.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Clouds.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Moon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Moon.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fly_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fly_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Fly_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fly_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fly_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fly_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Fly_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fly_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Fly_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fly_5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Fly_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fly_6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fly_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fly_7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Fly_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fly_8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fly_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fly_9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fly_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fly_10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Monster_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Monster_Idle_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Monster_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Monster_Idle_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Monster_Fire_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Monster_Fire_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Monster_Fire_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Monster_Fire_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Monster_Fire_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Monster_Fire_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Monster_Fire_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Monster_Fire_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Monster_Fire_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Monster_Fire_5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Monster_Fire_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Monster_Fire_6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Monster_Fire_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Monster_Fire_7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Monster_Fire_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Monster_Fire_8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Monster_Fire_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Monster_Fire_9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Monster_Fire_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Monster_Fire_10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/tiled_Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiled_Background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Coin.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Coin.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ladder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ladder.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/boundary.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\boundary.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Top arrow round button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Top arrow round button.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/shadedDark45.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shadedDark45.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Thumbstick_Dark.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\Thumbstick_Dark.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Thumbstick Boundary_Dark160.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\Thumbstick Boundary_Dark160.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/black.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\black.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Purple Button With Shadow_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Purple Button With Shadow_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/staging/public-resources/Menu buttons/4a64488d212c7a69721b3ac48319e64bc830f5663535fdafb18e2fc907e8d10a_Purple Button With Shadow_Hovered.png",
+          "name": "Purple Button With Shadow_Hovered.png"
+        }
+      },
+      {
+        "file": "assets/Purple Button With Shadow_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Purple Button With Shadow_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/staging/public-resources/Menu buttons/e44a40d67427b4e53751fc82b5ad4d87b2daf311558dcf0151cd1b173b7e5dcf_Purple Button With Shadow_Idle.png",
+          "name": "Purple Button With Shadow_Idle.png"
+        }
+      },
+      {
+        "file": "assets/Purple Button With Shadow_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Purple Button With Shadow_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/staging/public-resources/Menu buttons/04a69986487fb427759132f3807a28db0f3b845623d5ba34d063f46a9ee22f63_Purple Button With Shadow_Pressed.png",
+          "name": "Purple Button With Shadow_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/CantoraOne-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "CantoraOne-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/staging/public-resources/Menu buttons/05b0c1364a92b436b86ca819e66b63480d1bc2fb399f6c0cf8bffbf8199ccc2a_CantoraOne-Regular.ttf",
+          "name": "CantoraOne-Regular.ttf"
+        }
+      },
+      {
+        "file": "assets/rotate-screen-icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rotate-screen-icon.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Mobile Layouts/6a8102ce3340bf9f62300ee1a81ef0b2327b2c6e8d62d7dda68d547f5e2b5969_rotate-screen-icon.png",
+          "name": "rotate-screen-icon.png"
+        }
+      },
+      {
+        "file": "assets/generic_platformer_tiles.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "generic_platformer_tiles.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sheet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sheet.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sheet2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sheet2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tilemap_terrain.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tilemap_terrain.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney New Platformer Pack 1.0/Tilemap/9b627f6dd19701b59e1ffc1310bce631b2c8b757264991288ffb1143f8e39a8d_Tilemap_terrain.png",
+          "name": "Tilemap_terrain.png"
+        }
+      },
+      {
+        "file": "assets/preview2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "preview2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tilemap Decorations.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tilemap Decorations.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney New Platformer Pack 1.0/Tilemap/62c4efd4307471cfa6d59d1a1e2abc448e6c9c2f044cf0854d7ed1aaeb67e605_Tilemap Decorations.png",
+          "name": "Tilemap Decorations.png"
+        }
+      },
+      {
+        "file": "assets/spritesheet-tiles-default.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spritesheet-tiles-default.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney New Platformer Pack 1.0/Tilemap/16c6bb75a286c8dd9b224626c7493085ee2b25516f0ffcb078e5ae5b826c7e4d_spritesheet-tiles-default.png",
+          "name": "spritesheet-tiles-default.png"
+        }
+      },
+      {
+        "file": "assets/slice36_36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice36_36.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player-1.png6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player-1.png6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player-1.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player-1.png.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/53317141-28e2-45d5-8cd1-dad35f6414c2/resources/8c57b547c30d6b4d3c062f6de16c50e7f3edbcc2212234850dadec4e6156cda3-Player-1.png.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/emand_edroff-victory-bell-success-fanfare-576275.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "emand_edroff-victory-bell-success-fanfare-576275.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/53317141-28e2-45d5-8cd1-dad35f6414c2/resources/40d609475b4112be53651afc10589a481c8e2cc093a90af43e13745471bcf440-emand_edroff-victory-bell-success-fanfare-576275.mp3",
+          "name": "cloud-project-resource"
+        }
+      }
+    ]
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "GameVol",
+      "type": "number",
+      "value": 20
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level"
+    }
+  ],
+  "layoutsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "itemName": "Level"
+      }
+    ]
+  },
+  "externalEvents": [],
+  "externalEventsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "testsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/gameoverdialog"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/parallax"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/platformercharacteranimator"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/rectanglemovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/checkpoints"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/gamepads"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spritemultitouchjoystick"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/shakeobject"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/volumefalloff"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/enemy"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/player"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/userinterface"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/screenorientationchecker"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/untitledextension"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/untitledextension2"
+    }
+  ],
+  "externalLayouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/touch-controls"
+    }
+  ],
+  "externalLayoutsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "itemName": "Touch controls"
+      }
+    ]
+  }
+}
